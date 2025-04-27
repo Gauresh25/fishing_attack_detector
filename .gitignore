@@ -1,2 +1,4 @@
 Docs/
 Imgs/
+/__pycache__
+/venv

@@ -3,7 +3,7 @@ from API import get_prediction
 
 app = Flask(__name__)
 
-model_path = r"C:\Users\DELL\PycharmProjects\pythonProject\Phishing-Attack-Domain-Detection\models\Malicious_URL_Prediction.h5"
+model_path = r"C:\Other files\GitHub\fishing_attack_detector\models\Malicious_URL_Prediction.h5"
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
